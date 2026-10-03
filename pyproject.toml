@@ -1,0 +1,22 @@
+[project]
+name = "01-sorting-audio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "buh59", email = "mathysguinet26@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pygame-ce>=2.5.8",
+    "sounddevice>=0.5.6",
+]
+
+[project.scripts]
+01-sorting-audio = "01_sorting_audio:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
